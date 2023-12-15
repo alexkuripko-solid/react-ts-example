@@ -1,0 +1,47 @@
+#customCalendar {
+  .MuiPickersSlideTransition-root {
+    min-height: 460px !important;
+
+    @media (max-width: 1300px) {
+      min-height: 300px !important;
+    }
+  }
+
+  .MuiDateCalendar-root {
+    min-height: 460px !important;
+
+    @media (max-width: 1300px) {
+      min-height: 300px !important;
+    }
+  }
+
+  .MuiPickersFadeTransitionGroup-root {
+    font-size: 20px;
+
+    @media (max-width: 1300px) {
+      font-size: 16px !important;
+    }
+  }
+
+  .MuiYearCalendar-root {
+    width: 100% !important;
+  }
+
+  .MuiDayCalendar-weekDayLabel {
+    width: 50px !important;
+
+    @media (max-width: 1300px) {
+      width: 32px !important;
+    }
+  }
+
+  .MuiPickersDay-root {
+    width: 50px !important;
+    height: 50px !important;
+
+    @media (max-width: 1300px) {
+      width: 32px !important;
+      height: 32px !important;
+    }
+  }
+}

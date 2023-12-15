@@ -1,0 +1,1 @@
+export const getImagePath = (id: number) => `${process.env.REACT_APP_API_URL}/media/${id}`;
